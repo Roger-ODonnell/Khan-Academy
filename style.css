@@ -45,3 +45,14 @@ ul li a:hover{
 .homepage-link a {
     font-size: 15px;
 }
+
+.unlisted-a-div{
+    text-align: center;
+    margin-top: 5rem;
+}
+.unlisted-a-div a {
+    text-decoration: none;
+}
+.unlisted-a-div a:hover{
+    color: orange;
+}
