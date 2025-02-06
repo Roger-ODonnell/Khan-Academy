@@ -14,10 +14,11 @@ function BinarySearch(arr, target, low, high) {
 }
 
 let arr = [2, 3, 4, 10, 40];
-let target = 3;
-let n = arr.length
+let n = arr.length;
+let target = 4;
 let result = BinarySearch(arr, target, 0, n - 1);
+var response = document.getElementById("returnedIndex");
 if (result == -1)
     console.log("Element is not present in array");
 else
-    console.log("Element is present at index " + result);
+console.log("Element is present in the array " + result);

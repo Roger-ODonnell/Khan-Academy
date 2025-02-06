@@ -26,6 +26,13 @@ span{
     font-size: 15px;
 }
 
+form{
+    text-align: center;
+    margin-top: 10rem;
+    color: white;
+    font-size: 30px;
+}
+
 /* Navbar container */
 .navbar {
     overflow: hidden;
